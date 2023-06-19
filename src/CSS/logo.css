@@ -1,0 +1,117 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .logo1{
+    display: none;
+    /* revisar */
+  }
+  .noCenter{
+
+    animation-name: camaleon2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+  }
+  #center{
+    /* fill: white; */
+    animation-name: camaleon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+  }
+  @keyframes camaleon2{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  
+  @keyframes camaleon{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+  }
+  
+  .App-logo {
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  /* #bbb{
+    fill: white;
+  } */
+  .bbb{
+    /* fill: rgb(255, 217, 0); */
+    /* fill: #61DAFB; */
+    /* background-color: yellow; */
+    border-radius: 50%;
+    width: 90%;
+    height: 100%;
+    /* border: 1px solid orange; */
+    /* box-shadow: 0 0 5px 5px yellow; */
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .bbb {
+      animation: App-logo-spin infinite 7.195s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .itemLogo:active .bbb {
+    animation-play-state: running;
+  }
+  
+  .activo {
+    background-color: #282c34;
+  }
+  .itemLogo .bbb-activado .bbb {
+    animation: my-animation .19s linear infinite;
+  }
+  
+  @keyframes my-animation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* .itemLogo:focus .bbb {
+    animation: my-animation .19s linear infinite;
+    transition: transform 10009s ease-in-out;
+  }
+  
+  @keyframes my-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(90deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(270deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+  
+  
