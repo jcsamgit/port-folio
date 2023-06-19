@@ -3,6 +3,10 @@ import React from 'react';
 export default function Lateral(): JSX.Element {
     return (
         <>
+            <div className='puesto'>
+              <h2 className='ola'>Frontend React Js</h2>
+              <h2 className='ola2'>Frontend React Js</h2>
+            </div>
             <div className='contenidoLateral'>
                 <div>
                     <h4>Perfil</h4>

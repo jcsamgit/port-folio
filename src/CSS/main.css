@@ -1,9 +1,25 @@
 
-a{
-    color: rgb(120,238,255);
-    margin-left: 7px;
-    text-decoration-line: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.main{
+    background: rgb(120,238,255);
+    background: linear-gradient(180deg, rgba(120,238,255,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 50%, rgba(120,238,255,1) 100%);
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorFoto{
+    background-color: black;
+    height: 148px;
+    width: 148px;
+    border-radius: 50%;
+    margin: 10px;
+} 
 .contenedorFoto img{
     height: 100%;
     width: 100%;
@@ -12,19 +28,149 @@ a{
 }
 .fullName h1{
     font-size: 25px;
+    text-align: center;
 }
+.mainLogoContainer{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+.mainLogo{
+    height: 230px;
+    width: 230px;
+
+}
+/* exlateral */
+.contenidoLateral{
+    margin: 0 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenidoLateral div{
+    width: 300px;
+}
+.contenidoLateral h4{
+    margin: 25px 0 10px 0;
+}
+.contenidoLateral ul li{
+    list-style-type: none;
+}
+
+.destacado{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
+}
+.destacado li{
+    margin-left: 30px;
+}
+.destacado h3{
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.itemLogoContainer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 23vw;
+    width: 100%;
+}
+.logoContainer{
+    height: 75%;
+}
+.itemLogo{
+    height: 100%;
+    width: 19vw;
+    min-width: 70px;
+    /* min-width: 60px; */
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.parrafoLogo{
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.contenedorConceptos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.concepto{
+    background-color: #282c34;
+    width: 100%;
+    padding-bottom: 20px;
+    /* margin-left: 10px; */
+
+}
+
+.concepto h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.concepto h4{
+    margin: 5px 0 10px 10px;
+}
+.concepto ul{
+    margin: 0px 0 10px 10px;
+}
+
+
+
+a{
+    color: rgb(120,238,255);
+    margin-left: 7px;
+    text-decoration-line: none;
+}
+.contenedorConceptos li{
+    line-height: 1.8;
+}
+.concepto a:hover{
+    color: lightblue;
+    text-shadow: 0 0 8px white;
+    font-style: italic;
+}
+.itemLogo{
+    background-color: black;
+    border: none;
+}
+
+.itemLogo:hover, .itemLogo:focus{
+    background-color: #282c34;
+    outline: none;
+}
+
+.itemLogo:focus-visible{
+    background-color: #282c34;
+
+}
+/* puesto: FRONTED REACT JS */
 .puesto{
     position: relative;
     display: flex;
     justify-content: center;
     width: 100vw;
+    bottom: 40px;
+    font-size: 23px;
 }
 .puesto h2{
-    /* color: white; */
     position: absolute;
 }
 .puesto .ola{
-    color: white;
+    color: whitesmoke;
     text-shadow:
     -1px -1px 0 black,
     1px -1px 0 black,
@@ -32,7 +178,7 @@ a{
     -1px 1px 0 black;
 }
 .ola2{
-    color: rgb(120,238,255) ;
+    color: rgb(70, 216, 238) ;
     animation: ola 3s ease-in-out infinite;
 }
 @keyframes ola{
@@ -64,72 +210,14 @@ a{
     }
 }
 
-.contenedorConceptos li{
-    line-height: 1.8;
-}
-.concepto a:hover{
-    color: lightblue;
-    text-shadow: 0 0 8px white;
-    font-style: italic;
-}
-.itemLogo{
-    background-color: black;
-    border: none;
-}
-
-.itemLogo:hover, .itemLogo:focus{
-    background-color: #282c34;
-    outline: none;
-}
-
-.itemLogo:focus-visible{
-    background-color: #282c34;
-    /* background-color: yellow; */
-    /* outline: none; */
-
-}
-/* 
-#Educación{
-    animation-name: intermitente;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-    animation-duration: 10s;
-    transition: .2s;
-}
-#Aptitudes{
-    animation-name: intermitente;
-    animation-delay: 12s;
-    animation-iteration-count: 1;
-    animation-duration: 10s;
-    transition: .2s;
-}
-#Proyectos{
-    animation-name: intermitente;
-    animation-delay: 22s;
-    animation-iteration-count: 1;
-    animation-duration: 10s;
-    transition: .2s;
-}
-#Experiencia{
-    animation-name: intermitente;
-    animation-delay: 32s;
-    animation-iteration-count: 1;
-    animation-duration: 10s;
-    transition: .2s;
-}
-@keyframes intermitente{
-    50%{
-        border: 2px solid rgba(255, 255, 255, 0.466); transition: 7s;
-    }
-    90%{
-        border: 2px solid rgba(255, 255, 255, 0.185); transition: 7s;
-    }
 
 
-} */
 
 
-@media only screen and (max-width:580px){
+
+
+
+@media only screen and (min-width:5580px){
     .decorativo{
         position: absolute;
         top: 0;
@@ -271,7 +359,7 @@ a{
 
 /* ------------------------------------------------------------------------------------------- */
 /* table y escritorio */
-@media only screen and (min-width:579px){
+@media only screen and (min-width:4579px){
     .decorativo{
         position: absolute;
         top: 0;
