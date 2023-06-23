@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/main.css';
-import Destacado from './Destacado';
+// import Destacado from './Destacado';
 import FotoFullName from './FotoFullName';
 import Lateral from './Lateral';
 import Logo from './Logo';
@@ -21,10 +21,7 @@ export default function Main(): JSX.Element {
         <Lateral />
         
       </div>
-      
-      {/* <Destacado /> */}
 
-      <div className='decorativo'></div>
     </div>
   );
 }
