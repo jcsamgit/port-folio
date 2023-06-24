@@ -1,6 +1,5 @@
 import React from 'react';
 import '../CSS/main.css';
-// import Destacado from './Destacado';
 import FotoFullName from './FotoFullName';
 import Lateral from './Lateral';
 import Logo from './Logo';

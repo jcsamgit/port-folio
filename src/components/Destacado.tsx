@@ -36,7 +36,7 @@ export default function Destacado(): JSX.Element {
             ref={index === 0 ? enfoque : null} // referencia solo el primer botón
           >
             <p className='parrafoLogo'>{item}</p>
-            {/* <div className='logoContainer'> */}
+            {/* bbb es la clase dada al svg del simbolo dinamico react */}
             <div className={`logoContainer ${mostrar === item ? 'bbb-activado' : ''}`}>
               <Logo color="#61DAFB" />
             </div>
