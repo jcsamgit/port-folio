@@ -15,7 +15,7 @@ export default function Lateral(): JSX.Element {
                 </div>
 
                 <div>
-                    <h4>Aficiones</h4>
+                    <h4>Aficiones</h4> <br />
                     <ul>
                         <li>Desarmar, reparar y armar aparatos</li>
                         <li>Juegos de estrategias como el ajedrez</li>

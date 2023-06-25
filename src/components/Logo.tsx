@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../multimedia/logo.svg';
+// import logo from '../multimedia/logo.svg';
 import '../CSS/logo.css';
 
 interface LogoProps {
