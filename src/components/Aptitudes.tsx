@@ -1,5 +1,6 @@
 import React from 'react';
 import Ola from './Ola';
+import Mescribir from './Mescribir';
 
 // interface AptitudesProps {
 //   activar: string;
@@ -11,14 +12,18 @@ export default function Aptitudes(): JSX.Element {
     <div className='concepto aptitudes'>
         <h3 className='titulo'>
           <Ola olaText='APTITUDES'></Ola>
-        </h3> <br />
-        <li className='maquina'>Ingles: escrito (avanzado) y oral (intermedio)</li>
+        </h3> <br /> <br />
+        <li className='maquina'>
+          <Mescribir text="
+            Ingles: escrito (avanzado) y oral (intermedio)
+                  "/>
+          </li>
         <li className='maquina'>Data Entry </li>
         <li className='maquina'>Manejos de macros</li>
         <li className='maquina'>Word, Excel, Power Point </li>
         <li className='maquina'>C++ </li>
         <li className='maquina'>Python </li>
-        <li className='maquina'>SQLite</li>
+        <li className='maquina'>SQLite, MySQL</li>
         <li className='maquina'>Visual Studio Code</li>
         <li className='maquina'>GIT, GitHub y Gitea </li>
         <li className='maquina'>HTML, CSS, SASS, SEO </li>

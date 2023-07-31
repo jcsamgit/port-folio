@@ -14,7 +14,8 @@
     align-items: center;
 }
 .contenedorFoto{
-    background-color: black;
+    background: rgb(120,238,255);
+    /* background-color: black; */
     height: 148px;
     width: 148px;
     border-radius: 50%;
@@ -186,7 +187,17 @@ a{
         opacity: 1;
     }
 }
-
+.concepto a{
+    animation-name: aparicion;
+    animation-delay: .1s;
+    animation-duration: 4s;
+}
+@keyframes aparicion{
+    0%{opacity: 0;}
+    30%{opacity: .0;}
+    70%{opacity: .7;}
+    100%{opacity: 1;}
+}
 .itemLogo{
     background-color: black;
     border: none;
@@ -239,6 +250,9 @@ a{
     to{
         width: 0;
     }
+}
+.salto{
+    display: inline-block;
 }
 
 

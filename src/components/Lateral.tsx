@@ -6,7 +6,7 @@ export default function Lateral(): JSX.Element {
         <>
 
             <div className='puesto'>
-                <Ola olaText={"Frontend React Js "}/>
+                <Ola olaText={"Frontend React"}/>
             </div>
             <div className='contenidoLateral'>
                 <div>
@@ -24,6 +24,7 @@ export default function Lateral(): JSX.Element {
                     </ul>
                 </div>
                 <div>
+                    <br />
                     <h4>Contacto</h4>
 
                     <p>
