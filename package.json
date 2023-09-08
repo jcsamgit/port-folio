@@ -18,10 +18,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+
+    "deploy-main": "gh-pages -d build",
+    "deploy-main2": "gh-pages -d build-main2",
     "predeploy": "npm run build",
+    "build": "react-scripts build",
+    "build-main2": "react-scripts build && mv build build-main2",
+    
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
