@@ -2,7 +2,7 @@
   "name": "port-folio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jcsamgit.github.io/port-folio",
+  "homepage": "http://jcsamgit.github.io/port-folio2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,9 +19,9 @@
   },
   "scripts": {
 
+    "predeploy": "npm run build",
     "deploy-main": "gh-pages -d build",
     "deploy-main2": "gh-pages -d build-main2",
-    "predeploy": "npm run build",
     "build": "react-scripts build",
     "build-main2": "react-scripts build && mv build build-main2",
     

@@ -13,11 +13,11 @@ export default function FotoFullName(): JSX.Element {
         <div className='fullName' style={style}>
               <h1 >
                 <span className='mobileName'>
-              <Ola olaText='Julio Gerald'/> <br />
-              <Ola olaText='Castañeira Vargas'/>
+              <Ola olaText='Julio'/> <br />
+              <Ola olaText='Castañeira'/>
                 </span>
                 <span className='desktopName'>
-              <Ola olaText='Julio Gerald Castañeira Vargas'/>
+              <Ola olaText='Julio Castañeira'/>
                 </span>
               </h1>
 
