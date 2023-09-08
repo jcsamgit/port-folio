@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/port-folio2/static/css/main.b919548e.css",
+    "main.js": "/port-folio2/static/js/main.6f7bebdd.js",
+    "static/js/787.2e9b76fa.chunk.js": "/port-folio2/static/js/787.2e9b76fa.chunk.js",
+    "static/media/perfil-fondo-borroso.png": "/port-folio2/static/media/perfil-fondo-borroso.8cbfcb0e0f59bbc034fd.png",
+    "index.html": "/port-folio2/index.html",
+    "main.b919548e.css.map": "/port-folio2/static/css/main.b919548e.css.map",
+    "main.6f7bebdd.js.map": "/port-folio2/static/js/main.6f7bebdd.js.map",
+    "787.2e9b76fa.chunk.js.map": "/port-folio2/static/js/787.2e9b76fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b919548e.css",
+    "static/js/main.6f7bebdd.js"
+  ]
+}
