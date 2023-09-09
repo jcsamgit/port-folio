@@ -1,4 +1,3 @@
-import React from 'react';
 import Ola from './Ola';
 import foto from '../multimedia/perfil-fondo-borroso.png'
 
