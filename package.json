@@ -21,9 +21,9 @@
 
     "predeploy": "npm run build",
     "deploy-main": "gh-pages -d build",
-    "deploy-main2": "gh-pages -d build-main2",
+    "deploy-port-folio2": "gh-pages -d build-port-folio2",
     "build": "react-scripts build",
-    "build-main2": "react-scripts build && mv build build-main2",
+    "build-port-folio2": "react-scripts build && mv build build-port-folio2",
     
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
