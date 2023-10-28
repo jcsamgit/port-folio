@@ -1,6 +1,8 @@
 import React from 'react'
 import Ola from './Ola'
 import Mescribir from './Mescribir'
+import FondoTecno from './FondoTecno'
+import TextParticles from './TextParticles'
 
 
   
@@ -42,6 +44,10 @@ import Mescribir from './Mescribir'
             <ul>
                 <li className='maquina'>Matemáticas todos los niveles hasta cbc</li>
             </ul>
+            <iframe src='/borrar.html' title='prueba'></iframe>
+            {/* <FondoTecno/> */}
+            {/* <TextParticles text={"julio"} /> */}
+            {/* <TextParticles text={"julio"} /> */}
       </div>
     </>
   )
