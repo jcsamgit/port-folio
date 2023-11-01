@@ -170,11 +170,11 @@ a{
 .contenedorConceptos li{
     line-height: 1.8;
 }
-.concepto a:hover{
+.concepto a:hover, .btn-quinto{
     color: orange;
     text-shadow: 0 0 1px black;
 }
-.concepto a::after{
+.concepto a::after, .btn-quinto{
     content: " >>>";
     animation: destello 4s infinite alternate;
 }
@@ -188,7 +188,7 @@ a{
         opacity: 1;
     }
 }
-.concepto a{
+.concepto a, .btn-quinto{
     animation-name: aparicion;
     animation-delay: .1s;
     animation-duration: 4s;
@@ -255,7 +255,119 @@ a{
 .salto{
     display: inline-block;
 }
+/* .letrasAtomicas{
+    width: 95vw;
+}
+.letrasAtomicas canvas{
+    width: 100%;
+} */
 
+/* certificado quinto impacto */
+.btn-content{
+    display: inline-block;
+    margin-left: 5px;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border: none;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .modal-content img {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .modal-content button {
+    margin-top: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 40px;
+    padding: 0 8px;
+    border-radius: 50%;
+}
+.modal-content button:hover{
+    filter: invert(100%);
+    
+}
+  .btn-quinto {
+    display: inline-block;
+    background: none;
+    color: rgb(120,238,255);
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* TECNOFONDO CANVAS */
+  .fondo-container{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    background-color: black;
+    z-index: -10;
+  }
+.text-particles{
+    width: 100%;
+    height: auto;
+}
+
+/* modo visual */
+.indice-container{
+    position: absolute;
+    top: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+.indice-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 70px;
+    height:70px;
+    background-color: black;
+    border: 3px solid white;
+    margin: 10px;
+    box-shadow: 0 0 1px 1px white;
+}
+.indice-container div:hover{
+    box-shadow: 0 0 3px 3px white;
+
+}
+.indice {
+    padding-bottom: 7px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+
+}
 
 /* .... */
 /* .... */

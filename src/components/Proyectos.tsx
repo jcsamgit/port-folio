@@ -1,6 +1,7 @@
 import React from 'react';
 import Ola from './Ola';
 import Mescribir from './Mescribir';
+import { Link } from 'react-router-dom';
 
 // interface ProyectosProps {
 //   activar: string;
@@ -15,6 +16,9 @@ export default function Proyectos(): JSX.Element {
         </h3>
         <br />
         <br />
+        <h4>
+          <Link to="/modo-visual">MODO VISUAL</Link>
+        </h4>
         <ul>
           <li className='maquina'>
             <Mescribir text="

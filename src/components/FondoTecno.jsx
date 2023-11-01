@@ -15,8 +15,8 @@ const FondoTecno = () => {
 
     function Clear() {
       if (ctx) {
-        // ctx.fillStyle = 'rgba(0,0,0,0.07)';
-        ctx.fillStyle = 'rgba(40,44,52,0.07)';
+        ctx.fillStyle = 'rgba(0,0,0,0.07)';
+        // ctx.fillStyle = 'rgba(40,44,52,0.07)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
       }
     }

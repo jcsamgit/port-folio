@@ -1,22 +1,33 @@
-import React, { useEffect } from 'react';
+
 import './App.css';
 
-import Main from "./components/Main";
-import Destacado from './components/Destacado';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import VisualMode from './components/VisualMode';
+import ProyectosIframes from './components/ProyectosIframes';
+import VisualModeBye from './components/VisualModeBye';
+
+
 
 function App(): JSX.Element {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+
 
   return (
     <>
-     <a href="#inicio" style={{ visibility: 'hidden' , position:"absolute"}} id="top">
-  <span style={{ display: 'none' }}>Ir al inicio</span>
-</a>
 
-      <Main id="inicio" />
-      <Destacado /> 
+    <Router>
+        {/* <Main id="inicio" /> */}
+        {/* <Destacado />  */}
+      <Routes>
+        <Route path="/" Component={Home}/>
+        <Route path="/modo-visual" Component={VisualMode} />
+        <Route path="/modo-visual-bye" Component={VisualModeBye} />
+        <Route path="/modo-visual/proyectos" Component={ProyectosIframes} />
+
+      </Routes>
+      
+
+    </Router>
     </>
   );
 }

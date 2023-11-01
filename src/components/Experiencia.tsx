@@ -4,6 +4,7 @@ import Mescribir from './Mescribir'
 import FondoTecno from './FondoTecno'
 import TextParticles from './TextParticles'
 
+import Certificado from './Certificado'
 
   
   export default function Experiencia(): JSX.Element {
@@ -16,25 +17,34 @@ import TextParticles from './TextParticles'
             <br/>
             <br/>
             <h4 >
-            <Mescribir text="
-              -Frontend en Semillero de Quinto impacto (mayo/2023-actualidad)
+              <Mescribir text="
+                -Frontend en Semillero Latam de Quinto impacto (mayo/2023-actualidad)
+              "/>
+            </h4>
+            <ul>
+              <li >
+                <Mescribir text="
+                  Trabajo en equipo (SCRUM), tareas de programación web
+                "/>
+              </li>
+              <li >
+                <Mescribir text="
+                  Referencia comprobable
+                "/>
+              </li>
+              <h4 >
+                <Mescribir text="
+                  Tecnologías usadas:
                 "/>
               </h4>
-            <h4 >
-            <Mescribir text="
-            Trabajo en equipo (SCRUM), tareas de programación web
+              <li >
+                <Mescribir text="
+                  HTML, CSS, JS, JAVA, SPRINT, MySQL, FORK, GITEA, NEXTCLOUD, FIGMA, TRELLO, MAVEN, VSC
                 "/>
-              </h4>
-            <h4 >
-            <Mescribir text="
-            Tecnologías usadas:
-                "/>
-              </h4>
-            <h4 >
-            <Mescribir text="
-            HTML, CSS, JS, JAVA, SPRINT, MySQL, FORK, GITEA, NEXTCLOUD, FIGMA, TRELLO, MAVEN, VSC
-                "/>
-              </h4>
+              </li>
+
+              <Certificado/>
+            </ul>
             <br/>
             <h4 className='maquina'>-Freelance (2022-actualidad)</h4>
             <br/>
@@ -44,10 +54,11 @@ import TextParticles from './TextParticles'
             <ul>
                 <li className='maquina'>Matemáticas todos los niveles hasta cbc</li>
             </ul>
-            <iframe src='/borrar.html' title='prueba'></iframe>
+            {/* <iframe src='/borrar.html' title='prueba'></iframe> */}
             {/* <FondoTecno/> */}
             {/* <TextParticles text={"julio"} /> */}
             {/* <TextParticles text={"julio"} /> */}
+            {/* <Link to="/certificado"> IR AL CERTIFICADO</Link> */}
       </div>
     </>
   )

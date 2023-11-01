@@ -184,7 +184,7 @@ return () => {
 }, [text]);
 
 return (
-  <div className='letrasAtomicas'ref={containerRef} >
+  <div className='letrasAtomicas text-particles'ref={containerRef} >
     <canvas ref={canvasRef}  />
   </div>
 );
