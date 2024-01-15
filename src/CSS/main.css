@@ -31,6 +31,9 @@
 }
 .fullName h1{
     text-align: center;
+    font-family: "Montserrat" ,Verdana, Tahoma, sans-serif;
+    text-wrap: nowrap;
+
 }
 .mainLogoContainer{
     display: flex;
@@ -131,10 +134,11 @@
     cursor: pointer;
 }
 .parrafoLogo{
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     color: white;
     width: 100%;
+    padding-top: 8px;
 }
 .contenedorConceptos{
     width: 100%;
@@ -161,7 +165,9 @@
 }
 
 
-
+.concepto a{
+    text-wrap: nowrap;
+}
 a{
     color: rgb(120,238,255);
     margin-left: 7px;
@@ -221,6 +227,7 @@ a{
     bottom: 40px;
     font-size: 1.5em;
     text-align: center;
+    /* font-family: "Montserrat" ,Verdana, Tahoma, sans-serif; */
 }
 
 /* nombre */
@@ -254,6 +261,14 @@ a{
 }
 .salto{
     display: inline-block;
+}
+.modo-grafico::after{
+    content: "<<<"  !important;
+}
+.modo-grafico::before{
+    content: ">>>";
+    animation: destello 4s infinite alternate;
+
 }
 /* .letrasAtomicas{
     width: 95vw;

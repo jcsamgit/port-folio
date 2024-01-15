@@ -17,7 +17,7 @@ export default function Proyectos(): JSX.Element {
         <br />
         <br />
         <h4>
-          <Link to="/modo-visual">MODO VISUAL</Link>
+          <Link to="/modo-visual"className='modo-grafico' >MODO GRÁFICO</Link>
         </h4>
         <ul>
           <li className='maquina'>
