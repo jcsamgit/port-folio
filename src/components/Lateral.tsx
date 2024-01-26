@@ -25,15 +25,14 @@ export default function Lateral(): JSX.Element {
                 </div>
                 <div>
                     <br />
-                    <h4>Contacto</h4>
+                    <h4>Lo que puedo hacer:</h4>
 
                     <p>
-                    <a href='https://www.linkedin.com/in/julio-gerald-casta%C3%B1eira-vargas-b85276238/'className='linkedin btnContact'> LinkedIn </a>
-                    </p>
-
-                    <p>
-
-                    <a href="mailto:jc.cv.work@gmail.com" className='email btnContact'>Email</a>
+                        Aplicaciones web estáticas y dinámicas
+                        <br />
+                        SEO y posicionamiento
+                        <br />
+                        Hosting y dominios
                     </p>
                 </div>
             </div>

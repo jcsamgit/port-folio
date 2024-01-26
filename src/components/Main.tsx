@@ -3,6 +3,7 @@ import '../CSS/main.css';
 import FotoFullName from './FotoFullName';
 import Lateral from './Lateral';
 import Logo from './Logo';
+import Contacto from './Contacto';
 
 interface MainProps {
   id: string;
@@ -23,6 +24,7 @@ export default function Main(props: MainProps): JSX.Element {
       <div className='marco'>
         <Lateral />
       </div>
+      <Contacto/>
 
     </div>
   );
