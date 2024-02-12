@@ -39,7 +39,7 @@ import Certificado from './Certificado'
               </h4>
               <li >
                 <Mescribir text="
-                  HTML, CSS, JS, JAVA, SPRINT, MySQL, FORK, GITEA, NEXTCLOUD, FIGMA, TRELLO, MAVEN, VSC
+                  HTML, CSS, JS, JAVA, VITE.JS, MySQL, FORK, GITEA, NEXTCLOUD, FIGMA, TRELLO, MAVEN, VSC
                 "/>
               </li>
 

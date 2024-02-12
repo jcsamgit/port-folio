@@ -28,11 +28,13 @@ export default function Lateral(): JSX.Element {
                     <h4>Lo que puedo hacer:</h4>
 
                     <p>
-                        Aplicaciones web estáticas y dinámicas
+                        Aplicaciones web estáticas y dinámicas.
                         <br />
-                        SEO y posicionamiento
+                        Hosting y dominios.
                         <br />
-                        Hosting y dominios
+                        SEO y posicionamiento.
+                        <br />
+                        Limpieza de código, soporte y asistencia.
                     </p>
                 </div>
             </div>
