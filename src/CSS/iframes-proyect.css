@@ -43,15 +43,15 @@
 
 /* RESPONSIVE */
 @media (max-width: 900px){
-    .iframe-container{
+    /* .iframe-container{
         padding-top: 90px;
-    }
+    } */
     .iframe-container button{
         margin-bottom: 10px;
     }
-    .indice-container{
+    /* .indice-container{
         top: 0;
-    }
+    } */
     .indice-container div{
         scale: .7;
     

@@ -25,12 +25,12 @@ export default function Proyectos(): JSX.Element {
               Este port-folio (con React-Typescript)
                 "/>
           </li>
-          <li className='maquina'>
+          {/* <li className='maquina'>
             <Mescribir text="
               Venta de autos (con React)
                 "/>
             <a href='https://acaestatu0km.com'>ver mas</a>
-          </li>
+          </li> */}
           <li className='maquina'>
             <Mescribir text="
             Tienda online (con React Js)

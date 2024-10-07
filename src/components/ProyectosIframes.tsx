@@ -1,12 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import FondoTecno from './FondoTecno'
 import "../CSS/iframes-proyect.css"
 import {Link} from "react-router-dom"
+import { useLocation } from 'react-router-dom';
 // import StarsAnimation from './StarsAnimation'
 // import MouseParticles from './MouseParticles'
 const urls=[
     "https://jcsamgit.github.io/gym/",
-    "https://acaestatu0km.com/",
+    // "https://acaestatu0km.com/",
     "https://jcsamgit.github.io/bikes/",
     "https://jcsamgit.github.io/tsuki-food/",
     "https://jcsamgit.github.io/Simulador-de-plazo-fijo/",
@@ -15,10 +16,23 @@ const urls=[
 export default function ProyectosIframes() {
     const [currentUrlIndex, setCurrentUrlIndex] = useState(0);
     const back="<"
-
+    
     const changeUrl = (index:number) => {
-      setCurrentUrlIndex(index);
+        setCurrentUrlIndex(index);
     };
+    
+    const location = useLocation();
+  useEffect(() => {
+    const path = location.pathname + location.hash;
+
+    if (path === '/port-folio#/modo-visual/proyectos') {
+      document.body.classList.add('body-dark');
+    } else {
+      document.body.classList.remove('body-dark');
+    }
+
+
+  }, [location]);
 
   return (
     <>
@@ -42,7 +56,7 @@ export default function ProyectosIframes() {
                     <button onClick={()=> changeUrl(2)} id={currentUrlIndex===2? "active": ""}>3</button>
                     <button onClick={()=> changeUrl(3)} id={currentUrlIndex===3? "active": ""}>4</button>
                     <button onClick={()=> changeUrl(4)} id={currentUrlIndex===4? "active": ""}>5</button>
-                    <button onClick={()=> changeUrl(5)} id={currentUrlIndex===5? "active": ""}>6</button>
+                    {/* <button onClick={()=> changeUrl(5)} id={currentUrlIndex===5? "active": ""}>6</button> */}
                     {/* <button onClick={()=> changeUrl(6)} id={currentUrlIndex===6? "active": ""}>7</button> */}
                     {/* <button onClick={()=> changeUrl(7)} id={currentUrlIndex===7? "active": ""}>8</button> */}
                 </div>
