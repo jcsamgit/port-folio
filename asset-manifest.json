@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/port-folio/static/css/main.0fcae5d6.css",
-    "main.js": "/port-folio/static/js/main.2a757b7c.js",
+    "main.css": "/port-folio/static/css/main.5dc50b8e.css",
+    "main.js": "/port-folio/static/js/main.1104d80f.js",
     "static/js/787.2e9b76fa.chunk.js": "/port-folio/static/js/787.2e9b76fa.chunk.js",
+    "static/media/agujero-negro.png": "/port-folio/static/media/agujero-negro.5af72669c498037c784e.png",
     "static/media/perfil-fondo-borroso.png": "/port-folio/static/media/perfil-fondo-borroso.8cbfcb0e0f59bbc034fd.png",
     "static/media/certificado-quinto-2.png": "/port-folio/static/media/certificado-quinto-2.7a14ddf3eb40843f35d2.png",
     "static/media/certificado-quinto.png": "/port-folio/static/media/certificado-quinto.755a651bc6bc541130d8.png",
@@ -10,12 +11,12 @@
     "static/media/mail.svg": "/port-folio/static/media/mail.7597bc60f02439a76b254fba3b9089bf.svg",
     "index.html": "/port-folio/index.html",
     "static/media/contacto-icono.svg": "/port-folio/static/media/contacto-icono.d17aa442acdb9b1c0ae24bc84ebbdf4e.svg",
-    "main.0fcae5d6.css.map": "/port-folio/static/css/main.0fcae5d6.css.map",
-    "main.2a757b7c.js.map": "/port-folio/static/js/main.2a757b7c.js.map",
+    "main.5dc50b8e.css.map": "/port-folio/static/css/main.5dc50b8e.css.map",
+    "main.1104d80f.js.map": "/port-folio/static/js/main.1104d80f.js.map",
     "787.2e9b76fa.chunk.js.map": "/port-folio/static/js/787.2e9b76fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fcae5d6.css",
-    "static/js/main.2a757b7c.js"
+    "static/css/main.5dc50b8e.css",
+    "static/js/main.1104d80f.js"
   ]
 }
