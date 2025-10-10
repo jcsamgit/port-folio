@@ -15,13 +15,16 @@ body{
 
 .main{
     /* background: rgb(120,238,255); */
-    /* background: url(../multimedia/universo-animado2.gif); */
+    background: url(../multimedia/agujero-negro.png);
     /* background: url(../multimedia/rosca.gif); */
     /* background: url("https://usagif.com/wp-content/uploads/gifs/starfall-gif-70.gif"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% - 280px) center;
+
     /* background: linear-gradient(180deg, rgba(120,238,255,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 50%, rgba(120,238,255,1) 100%); */
-    background-color: rgb(20, 20, 29);
+    /* background-color: rgb(20, 20, 29); */
+
 
 }
 .encabezado{
@@ -88,20 +91,24 @@ body{
 }
 .contenidoLateral h4{
     color: white;
+    font-size: 1.3rem;
+    text-shadow: 0 0 6px black, 0 0 4px black, 0 0 2px black;
 }
 .contenidoLateral div{
     width: 300px;
     margin-top: 20px;
 }
 .contenidoLateral p{
-    color: rgb(238, 245, 245);
     margin: 15px;
-    text-shadow: 0 0 2px blue;
 }
 .contenidoLateral ul li{
-    color: rgb(238, 245, 245);
-    text-shadow: 0 0 2px blue;
     list-style-type: none;
+}
+.contenidoLateral ul li, .contenidoLateral p{
+    color: rgb(238, 245, 245);
+    font-size: 1.1rem;
+    text-shadow: 0 0 6px black, 0 0 4px black, 0 0 2px black, 0 0 1px black;
+
 }
 
 
@@ -233,7 +240,7 @@ a{
     display: flex;
     justify-content: center;
     bottom: 40px;
-    font-size: 1.5em;
+    font-size: 1.7rem;
     text-align: center;
     /* font-family: "Montserrat" ,Verdana, Tahoma, sans-serif; */
 }
@@ -543,7 +550,7 @@ bottom: 2px;
         padding: 40px 0;
     }
     .parrafoLogo{
-        font-size: 16px;
+        font-size: 1rem;
     }
     /* CONTENIDO DINAMICO RESPONSIVE */
     .itemLogoContainer{
@@ -555,6 +562,9 @@ bottom: 2px;
 }
 
 @media only screen and (min-width:1000px){
+    .main{
+        background-position: inherit;
+    }
     .puesto{
         font-size: 40px;
     }

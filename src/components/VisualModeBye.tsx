@@ -24,16 +24,14 @@ export default function VisualModeBye() {
         </div>
         <div className='indice-container'>
             <div title='Volver'>
-                <Link to="/" className='indice'> {back}</Link>
+                <a href="https://jcsamgit.github.io/port-folio/" className='indice'> {back}</a> 
+                {/* <Link to="/" className='indice'> {back}</Link> comentar el codigo de arriba y descomentar esta linea para hacer modificaciones en el local */}
             </div>
             <div title='Siguiente'>
                 <Link to="/modo-visual/proyectos" className='indice'> {next}</Link>
             </div>
         </div>
         
-        {/* <div>
-            <iframe src="https://jcsamgit.github.io/port-folio/" title='portfolio' height="80%" width="85%"></iframe>
-        </div> */}
     </>
   )
 }
