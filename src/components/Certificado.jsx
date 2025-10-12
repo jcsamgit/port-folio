@@ -27,7 +27,7 @@ const nextStyle={
 }
   return (
     <div className='btn-content'>
-      <button onClick={openModal} className='btn-quinto'>Ver mas</button>
+      <button onClick={openModal} className='btn-vermas'>Ver mas</button>
 
       {isModalOpen && (
         <div className="modal-overlay" >

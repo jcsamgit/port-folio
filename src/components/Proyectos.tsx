@@ -35,25 +35,25 @@ export default function Proyectos(): JSX.Element {
             <Mescribir text="
             Tienda online (con React Js)
                 "/>
-            <a href='https://jcsamgit.github.io/bikes/'>ver mas</a>
+            <a href='https://jcsamgit.github.io/bikes/' target='_blank'rel="noopener noreferrer">ver mas</a>
           </li>
           <li className='maquina'>
             <Mescribir text="
             Simulador de plazo fijo (con HTML Y JS)
                 "/>
-            <a href='https://jcsamgit.github.io/Simulador-de-plazo-fijo/'>ver mas</a>
+            <a href='https://jcsamgit.github.io/Simulador-de-plazo-fijo/' target='_blank'rel="noopener noreferrer">ver mas</a>
           </li>
           <li className='maquina'>
             <Mescribir text="
             Gym (con HTML y JS)
                 "/>
-            <a href='https://jcsamgit.github.io/gym/'>ver mas</a>
+            <a href='https://jcsamgit.github.io/gym/' target='_blank'rel="noopener noreferrer">ver mas</a>
           </li>
           <li className='maquina'>
             <Mescribir text="
             Menu oriental (pagina estática con HTML)
                 "/>
-            <a href='https://jcsamgit.github.io/tsuki-food/'>ver mas</a>
+            <a href='https://jcsamgit.github.io/tsuki-food/' target='_blank'rel="noopener noreferrer">ver mas</a>
           </li>
           {/* <li className='maquina'>
             <Mescribir text="
@@ -65,13 +65,13 @@ export default function Proyectos(): JSX.Element {
             <Mescribir text="
             Tateti con Python
                 "/>
-            <a href='https://github.com/jcsamgit/simuladores/blob/main/TATETI.py'>ver mas</a>
+            <a href='https://github.com/jcsamgit/simuladores/blob/main/TATETI.py' target='_blank'rel="noopener noreferrer">ver mas</a>
           </li>
           <li className='maquina'>
             <Mescribir text="
             Simulador de dados con Python
                 "/>
-              <a href='https://github.com/jcsamgit/simuladores/blob/main/Simulador%20de%20dados.py'>ver mas</a>
+              <a href='https://github.com/jcsamgit/simuladores/blob/main/Simulador%20de%20dados.py' target='_blank'rel="noopener noreferrer">ver mas</a>
           </li>
         </ul>
     </div>

@@ -1,10 +1,7 @@
 import React from 'react'
 import Ola from './Ola'
 import Mescribir from './Mescribir'
-import FondoTecno from './FondoTecno'
-import TextParticles from './TextParticles'
-
-import Certificado from './Certificado'
+import CertificadoViewer from './CertificadoViewer'
 
   
   export default function Experiencia(): JSX.Element {
@@ -29,6 +26,11 @@ import Certificado from './Certificado'
               </li>
               <li >
                 <Mescribir text="
+                  Experiencia en PR y resolución de conflictos al fusionar ramas en el main
+                "/>
+              </li>
+              <li >
+                <Mescribir text="
                   Referencia comprobable
                 "/>
               </li>
@@ -43,7 +45,7 @@ import Certificado from './Certificado'
                 "/>
               </li>
 
-              <Certificado/>
+              <CertificadoViewer archivos={["/documents/quinto.png", "/documents/quinto2.png"]}/>
             </ul>
             <br/>
             <h4 className='maquina'>-Freelance (2022-actualidad)</h4>
@@ -54,11 +56,6 @@ import Certificado from './Certificado'
             <ul>
                 <li className='maquina'>Matemáticas todos los niveles hasta cbc</li>
             </ul>
-            {/* <iframe src='/borrar.html' title='prueba'></iframe> */}
-            {/* <FondoTecno/> */}
-            {/* <TextParticles text={"julio"} /> */}
-            {/* <TextParticles text={"julio"} /> */}
-            {/* <Link to="/certificado"> IR AL CERTIFICADO</Link> */}
       </div>
     </>
   )

@@ -21,7 +21,6 @@ export default function Aptitudes(): JSX.Element {
         <li className='maquina'>Data Entry </li>
         <li className='maquina'>Manejos de macros</li>
         <li className='maquina'>Word, Excel, Power Point </li>
-        <li className='maquina'>C++ </li>
         <li className='maquina'>Python </li>
         <li className='maquina'>SQLite, MySQL</li>
         <li className='maquina'>Visual Studio Code</li>

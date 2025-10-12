@@ -180,7 +180,7 @@ body{
 }
 
 
-.concepto a{
+.concepto a, .btn-vermas{
     text-wrap: nowrap;
 }
 a{
@@ -191,11 +191,11 @@ a{
 .contenedorConceptos li{
     line-height: 1.8;
 }
-.concepto a:hover, .btn-quinto{
+.concepto a:hover, .btn-vermas:hover{
     color: orange;
     text-shadow: 0 0 1px black;
 }
-.concepto a::after, .btn-quinto::after{
+.concepto a::after, .btn-vermas::after{
     content: " >>>";
     animation: destello 4s infinite alternate;
 }
@@ -209,7 +209,7 @@ a{
         opacity: 1;
     }
 }
-.concepto a, .btn-quinto{
+.concepto a, .btn-vermas{
     animation-name: aparicion;
     animation-delay: .1s;
     animation-duration: 4s;
@@ -293,77 +293,7 @@ a{
 } */
 
 /* certificado quinto impacto */
-.btn-content{
-    display: inline-block;
-    margin-left: 5px;
-}
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  }
-  
-  .modal-content {
-    width: 80%;
-    max-width: 800px;
-    background: white;
-    padding: 20px;
-    border: none;
-    /* position: relative; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .modal-content img {
-    width: 100%;
-    max-width: 100%;
-  }
-  
-  .modal-content button {
-    margin-top: 10px;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 40px;
-    padding: 0 8px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.modal-content button:hover{
-    filter: invert(100%);
-    
-}
-  .btn-quinto {
-    display: inline-block;
-    background: none;
-    color: rgb(120,238,255);
-    border: none;
-    padding: 0;
-    margin: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: none;
-  }
-  .btn-index-modal{
-      padding: 9px 4px;
-      font-size: 20px;
-      cursor: pointer;
-      transition: .3s;
-      margin: 1px;
-      
-    }
-    .btn-index-modal:hover{
-        filter: invert(100%);
-    }
-  
+
   /* TECNOFONDO CANVAS */
   .fondo-container{
     width: 100%;
@@ -561,6 +491,7 @@ bottom: 2px;
     }
 }
 
+/* escritorio */
 @media only screen and (min-width:1000px){
     .main{
         background-position: inherit;
@@ -572,9 +503,11 @@ bottom: 2px;
         font-size: 30px;
     }
     .concepto{
-        font-size: 20px;
+        font-size: 1.25rem;
     }
-
+    .educacion{
+        padding-left: 10px;
+    }
 
 }
 
