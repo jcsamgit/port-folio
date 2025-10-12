@@ -46,6 +46,7 @@ export default function Educacion(): JSX.Element {
                 </li>
             </ul>
             <hr />
+            <br />
             <h4 className='maquina'>Coderhouse</h4>
             <h4 className='maquina' style={{display:"inline"}}>
                 <Mescribir text="
@@ -68,6 +69,7 @@ export default function Educacion(): JSX.Element {
                 </li>
             </ul>
             <hr />
+            <br />
             <h4 className='maquina'>Universidad Austral</h4>
             <ul>
                 <h4 className='maquina'>
@@ -99,6 +101,7 @@ export default function Educacion(): JSX.Element {
                 </li>
             </ul>
             <hr />
+            <br />
             <h4 className='maquina'> Universidad Nacional de San Martin</h4>
             <ul>
             <Mescribir text="
